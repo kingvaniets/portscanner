@@ -2,15 +2,13 @@
 #######################################################################
 __author__      = "edward.nauwelaerts@student.kdg.be"
 __description__ = "XMAS scan flags URGENT, FIN and PRIORITY"
-__license__     = "GPLv3 https://www.gnu.org/licenses/gpl-3.0.nl.html"
-__version__     = "1.0"    
 __requires__    = "sudo apt install python3-scapy"
 #######################################################################       
 
 import sys
 import os
 import time
-from scapy.all import * 
+from scapy.all import *
 from datetime import datetime
 
 dstip=     "192.168.56.107"   
